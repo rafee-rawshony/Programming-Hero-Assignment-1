@@ -1,0 +1,69 @@
+/* -------font link-------  */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Lato:wght@100;400;700;900&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@100;400;700;800&display=swap');
+
+/* ------font aline------- */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.box{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+/* --------header section---------- */
+section{
+    margin-bottom: 128px;
+}
+.head-bg{
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.head-section{
+    display: flex;
+    align-items: center;
+}
+
+.head-left{
+    width: 50%;
+}
+.head-left >h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.head-left> p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    max-width: 80%;
+}
+
+/*------------------ header image alignment ----------------------*/
+.head-right{
+    width: 50%;
+}
+.head-right> img{
+    padding-top: 50px;
+    max-width: 100%;
+    margin-bottom: -3px;
+}
+
+/* ------button style ------------ */
+.button-tag{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 42px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
