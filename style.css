@@ -1,7 +1,7 @@
-/* -------font link-------  */
+/* ------Google Font Section---------- */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Lato:wght@100;400;700;900&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@100;400;700;800&display=swap');
 
-/* ------font aline------- */
+/* ----------Google Font Section End---------- */
 *,
 *::after,
 *::before {
@@ -11,54 +11,37 @@
     font-family: 'Lato', sans-serif;
 }
 
-.box{
+/* -----------Common Eminent--------------- */
+.box {
     max-width: 1440px;
     width: 100%;
     margin-inline: auto;
 }
-/* --------header section---------- */
-section{
+
+section {
     margin-bottom: 128px;
 }
-.head-bg{
-    background: rgba(229, 84, 115, 0.10);
-}
 
-.head-section{
-    display: flex;
-    align-items: center;
-}
-
-.head-left{
-    width: 50%;
-}
-.head-left >h1{
+.main-title {
     color: #272727;
-    font-size: 80px;
+    text-align: center;
+    font-size: 40px;
     font-weight: 800;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
-.head-left> p{
+
+.secend-title {
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom: 32px;
-    max-width: 80%;
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 45px;
 }
 
-/*------------------ header image alignment ----------------------*/
-.head-right{
-    width: 50%;
-}
-.head-right> img{
-    padding-top: 50px;
-    max-width: 100%;
-    margin-bottom: -3px;
-}
-
-/* ------button style ------------ */
-.button-tag{
+.button-tag {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 42px;
@@ -67,3 +50,174 @@ section{
     font-size: 20px;
     cursor: pointer;
 }
+
+/* -----------Common Eminent End--------------- */
+
+/* ---------Head Section---------- */
+.head-bg {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.head-section {
+    display: flex;
+    align-items: center;
+}
+
+.head-left {
+    width: 50%;
+}
+
+.head-left>h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.head-left>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    max-width: 80%;
+}
+
+.head-right {
+    width: 50%;
+}
+
+.head-right>img {
+    padding-top: 50px;
+    max-width: 100%;
+    margin-bottom: -3px;
+}
+
+/* ---------Head Section End---------- */
+
+/* -----------Featured Flowers Section----------- */
+.secend-feature-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fast-secend-feature>a {
+    display: block;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+    text-decoration-line: underline;
+}
+
+.secend-feature {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.secend-feature2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.secend-feature3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* -----------Featured Flowers Section End----------- */
+
+/* --------Discount Section --------- */
+.discount-section {
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.discount-section-wrapper {
+    display: flex;
+}
+
+.discount-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 160px 0px;
+}
+
+.discount-section-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------Discount Section End--------- */
+
+/* --------------Instagram Section-------------- */
+.insta-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.onepost {
+    width: 345px;
+    height: 400px;
+}
+
+.onepost>img {
+    max-width: 100%;
+}
+
+/* --------------Instagram Section End-------------- */
+
+/* -----------Subscribe Section-----------  */
+.subscribe {
+    background: url('../Images/Rectangle\ 9.png');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.contac-wrapper>input {
+    width: 700px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 20px 42px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+/* -----------Subscribe Section End-----------  */
+
+/* --------Footer Section-------- */
+footer {
+    background: #111010;
+    color: white;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer > h1 {
+    color:white!important;
+}
+
+
+.refText {
+    color: rgba(255, 255, 255, 0.40)!important;
+}
+
+/* --------Footer Section End-------- */
