@@ -16,6 +16,7 @@
     max-width: 1440px;
     width: 100%;
     margin-inline: auto;
+    
 }
 
 section {
@@ -49,6 +50,7 @@ section {
     border: none;
     font-size: 20px;
     cursor: pointer;
+    box-shadow: 10px 10px 10px  pink;
 }
 
 /* -----------Common Eminent End--------------- */
@@ -119,6 +121,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: end;
+    box-shadow: 5px 15px 15px  pink;
 }
 
 .secend-feature2 {
@@ -167,13 +170,40 @@ section {
 .onepost {
     width: 345px;
     height: 400px;
-}
+    }
 
 .onepost>img {
     max-width: 100%;
 }
 
 /* --------------Instagram Section End-------------- */
+
+/* --------Extra Section --------- */
+.extra-section {
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.extra-section-wrapper{
+    display: flex;
+}
+
+.extra-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 160px 0px;
+}
+
+.extra-section-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------Extra Section End--------- */
 
 /* -----------Subscribe Section-----------  */
 .subscribe {
@@ -187,6 +217,7 @@ section {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    box-shadow: 20px 20px 20px  pink;
 }
 
 .contac-wrapper>input {
