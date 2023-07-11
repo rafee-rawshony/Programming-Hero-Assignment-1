@@ -206,8 +206,15 @@ section {
 /* --------Extra Section End--------- */
 
 /* -----------Subscribe Section-----------  */
+.subscribe-box{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+    background: url('./Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .subscribe {
-    background: url('../Images/Rectangle\ 9.png');
     height: 450px;
     background-repeat: no-repeat;
     background-position: center;
